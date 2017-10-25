@@ -1,0 +1,81 @@
+/* Paste in code from your old files to save time and avoid typos! */
+
+body {
+	display:flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	width:100vw;
+}
+.left-col{
+	background-color:red;
+	height:100vh;
+	width:50vw;
+}
+.right-col{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:indigo;
+	height:100vh;
+	width:50vw;
+}
+.purple{
+	background-color:purple;
+	height:50%;
+	width:50%;
+}
+.orange{
+	background-color:orange;
+	height:50%;
+	width:50%;
+}
+.black{
+	background-color:black;
+	height:50%;
+	width:50%;
+}
+.green{
+	background-color:green;
+	height:50%;
+	width:50%;
+}
+@media screen and (max-width:800px){
+
+	body {
+		display:flex;
+		flex-wrap: wrap;
+		height: 100vh;
+		width:100vw;
+	}
+	.left-col{
+		background-color:red;
+		height:100vh;
+		width:100vw;
+	}
+	.right-col{
+		display:flex;
+		flex-wrap:wrap;
+		background-color:indigo;
+		height:100vh;
+		width:100vw;
+	}
+	.purple{
+		background-color:purple;
+		height:50%;
+		width:50%;
+	}
+	.orange{
+		background-color:orange;
+		height:50%;
+		width:50%;
+	}
+	.black{
+		background-color:black;
+		height:50%;
+		width:50%;
+	}
+	.green{
+		background-color:green;
+		height:50%;
+		width:50%;
+	}
+}
