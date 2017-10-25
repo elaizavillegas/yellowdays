@@ -20,14 +20,19 @@ body {
 }
 .yellow{
 	background-color:yellow;
-	height:50%;
-	width:50%;
+	height:calc(100/4);
+	width:calc(100/3);
 }
 .white{
-		background-color:white;
-		height:50%;
-		width:50%;
-	}
+	background-color:white;
+	height:calc(100/4);
+	width:calc(100/3);
+}
+.yellow{
+	background-color:yellow;
+	height:calc(100/4);
+	width:calc(100/3);
+}
 }
 @media screen and (max-width:800px){
 
