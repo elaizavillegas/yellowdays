@@ -7,14 +7,14 @@ body {
 	width:100vw;
 }
 .left-col{
-	background-color:red;
+	background-color:yellow;
 	height:100vh;
 	width:50vw;
 }
 .right-col{
 	display:flex;
 	flex-wrap:wrap;
-	background-color:indigo;
+	background-color:yellow;
 	height:100vh;
 	width:50vw;
 }
@@ -38,7 +38,7 @@ body {
 		width:100vw;
 	}
 	.left-col{
-		background-color:red;
+		background-color:yellow;
 		height:100vh;
 		width:100vw;
 		display:block;
