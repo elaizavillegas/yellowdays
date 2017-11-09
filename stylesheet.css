@@ -1,101 +1,46 @@
-/* Paste in code from your old files to save time and avoid typos! */
-body {
-	display:flex;
+
+.container {
 	height: 100vh;
-	width:100vw;
+	width: 100vw;
+	margin: 0px;
 }
-.row1{
-	height:25vh;
-	width:100vw;
-  }
-.row2{
-	height:25vh;
-	width:100vw;
-  }
-.row3{
-	height:25vh;
-	width:100vw;
-  }
-.row4{
-	height:25vh;
-	width:100vw;
-  }
-.yellow{
-	background-color:yellow;
-	height:calc(100/4);
-	width:calc(100/6);
+
+.top{
+	height: 25vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
 }
-.white{
-	background-color:white;
-	height:calc(100/4);
-	width:calc(100/6);
+
+.bottom{
+	height: 25vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
 }
-.yellow{
-	background-color:yellow;
-	height:calc(100/4);
-	width:calc(100/6);
-body {
-	display:flex;
-	height: 100vh;
-	width:100vw;
+.top_mid{
+	height: 25vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
 }
-.row1{
-	height:25vh;
-	width:100vw;
-  }
-.row2{
-	height:25vh;
-	width:100vw;
-  }
-.row3{
-	height:25vh;
-	width:100vw;
-  }
-.row4{
-	height:24vh;
-	width:100vw;
-  }
+
+.bottom_mid{
+	height: 25vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
 }
-@media screen and (max-width:800px){
-	body {
-		display:block
-		height: 100vh;
-		width:100vw;
-	}
-  .row1{
-		background-color:yellow;
-		height:25vh;
-		width:100vw;
-		display:flex-wrap;
-		flex-wrap:flex;
-	}
-  .row2{
-		background-color:yellow;
-		height:25vh;
-		width:100vw;
-		display:flex-wrap;
-		flex-wrap:flex;
-	}
-	.row3{
-		background-color:yellow;
-		height:25vh;
-		width:100vw;
-		display:flex-wrap;
-		flex-wrap:flex;
-	}
-	.row4{
-		display:flex;
-    flex-wrap:flex;
-		height:25vh;
-		width:100vw;
-  }
-.yellow{
-	background-color:yellow;
-	height:calc(100%/4);
-	width:calc(100%/6);
+
+.box{
+	height: 100%;
+	width: 16.65%;
 }
-.white{
-	background-color:white;
-	height:calc(100%/4);
-	width:calc(100%/6);
+
+.square1{
+	background-color: #C4A33A;
+}
+
+.square2{
+	background-color: white;
 }
